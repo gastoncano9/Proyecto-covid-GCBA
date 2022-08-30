@@ -1,0 +1,748 @@
+@media(max-width:1130px)
+{
+    #cabecera
+    {
+        padding-left:130px;
+        padding-right: 130px;
+    }
+
+    #principal
+    {
+        padding-left:130px;
+        padding-right: 130px;
+    }
+
+    #pie
+    {
+        padding-left:130px;
+        padding-right: 130px;
+    }
+
+    #propuestas .contenedor-tarjetas .columna p
+    {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1110px)
+{
+    #cabecera
+    {
+        padding-left:120px;
+        padding-right: 120px;
+    }
+
+    #principal
+    {
+        padding-left:120px;
+        padding-right: 120px;
+    }
+
+    #pie
+    {
+        padding-left:120px;
+        padding-right: 120px;
+    }
+
+    #servicios .contenedor-tarjetas
+    {
+        justify-content: space-between;
+    }
+
+    .columna
+    {
+        width: 31.3%;
+    }
+
+    #servicios .contenedor-tarjetas .columna h4 a
+    {
+        font-size:14px;
+    }
+
+    .footer-legal-section .contenedor-legal .contenedor-licencia
+    {
+        width: 35%;
+    }
+}
+
+@media(max-width:1094px)
+{
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 136%;
+    }
+
+    #pie .container #telefonos .titulo-telefono
+    {
+        margin: 0px 0px 0px 15px;
+    }
+
+    #pie .container #telefonos .list-inline li 
+    {
+        margin: 0px 12px;
+    }
+}
+
+@media(max-width:1047px)
+{
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 141%;
+    }
+
+    #servicios .contenedor-tarjetas .columna h4
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width:1032px)
+{
+
+    #cabecera
+    {
+        padding-left:110px;
+        padding-right: 110px;
+    }
+
+    #principal
+    {
+        padding-left:110px;
+        padding-right: 110px;
+    }
+
+    #pie
+    {
+        padding-left:110px;
+        padding-right: 110px;
+    }
+
+    #pie #redes
+    {
+        width: 88%;
+    }
+
+    #propuestas .contenedor-tarjetas .card-body
+    {
+        padding: 15px 0px 0px 15px;
+    }
+}
+
+@media(max-width:1005px)
+{
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 141%;
+        background-position-y: -17%;
+    }
+
+    #gobierno-nacional .contenedor-enlaces
+    {
+        justify-content: space-between;
+    }
+
+    .footer-legal-section .contenedor-legal .contenedor-licencia
+    {
+        width: 45%;
+    }
+}
+
+@media(max-width:975px)
+{
+
+    /*.breadcrumb .breadcrumb-item:not(:last-child)
+    {
+        display: block;
+    }
+
+    .breadcrumb .breadcrumb-item:last-child 
+    {
+        padding-left:15px;
+    }
+
+    .breadcrumb .breadcrumb-item:last-child::before
+    {
+        transform: rotate(1turn);
+    }*/
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 147%;
+        background-position-y: -17%;
+    }
+
+    #gobierno-nacional .contenedor-enlaces
+    {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #gobierno-nacional .contenedor-enlaces a
+    {
+        margin-top: 7px;
+        margin-right: 10px;
+    }
+
+    .footer-legal-section .contenedor-legal .contenedor-licencia .d-none
+    {
+        display: inline !important;
+    }
+}
+
+@media(max-width:950px)
+{
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 150%;
+    }
+
+    #pie .container #telefonos .list-inline
+    {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #pie .container #telefonos .list-inline li
+    {
+        margin: 0px 10px;
+        max-width: 100px;
+    }
+}
+
+@media(max-width:900px)
+{
+    .ocultar
+    {
+        display: none !important;
+    }
+
+    .mostrar
+    {
+        display: block !important;
+        margin-top: 25px;
+        font-size: 18px;
+        color: #A8AFB8;
+        text-align:center;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 165%;
+    }
+
+    #prevencion-sintomas h2
+    {
+        font-size: 25px;
+    }
+
+    #prevencion-sintomas p
+    {
+        font-size: 15px;
+    }
+
+    #prevencion-sintomas button
+    {   
+        font-size: 14px;
+    }
+
+    #prevencion-sintomas .columna-50 .contenedor-img
+    {
+        width: 95%;
+    }
+
+    .footer-legal-section .contenedor-legal .contenedor-licencia
+    {
+        width: 25%;
+    }
+}
+
+@media(max-width:850px)
+{
+    #principal p
+    {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-y: -100%;
+        height: auto;
+    }
+
+    #principal #consulta .contenedor-consulta #form-consulta
+    {
+        flex-direction: column;
+    }
+
+    #principal #consulta .contenedor-consulta p
+    {
+        width: 58%;
+    }
+
+    #principal #consulta .contenedor-consulta #form-consulta .caja-input
+    {
+        width: 80%;
+    }
+    #principal #consulta .contenedor-consulta #form-consulta button
+    {
+        width: 30%;
+    }
+
+    #prevencion-sintomas p
+    {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:810px)
+{
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-y: 315%;
+        background-position-x: 200%;
+        height: auto;
+    }
+
+    #prevencion-sintomas p
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width:772px)
+{
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 235%;
+    }
+
+    #servicios .contenedor-tarjetas
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #servicios .contenedor-tarjetas .columna p
+    {
+        width: 100%;
+    }
+
+    .columna
+    {
+        width: 50%;
+    }
+
+    #propuestas .contenedor-tarjetas
+    {
+        flex-wrap: wrap;
+    }
+
+    #propuestas .contenedor-tarjetas .columna
+    {
+        width: 33%;
+    }
+
+    .pl-4
+    {
+        padding-left: 10px !important;
+    }
+}
+
+@media(max-width:750px)
+{
+
+    #prevencion-sintomas .columna-50
+    {
+        width: 100%;
+    }
+
+    .pl-4
+    {
+        padding: 0px !important;
+    }
+
+    #prevencion-sintomas h2
+    {
+        font-size: 30px;
+    }
+
+    #prevencion-sintomas .columna-50 .contenedor-img h5
+    {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #principal .contenedor-info .info h3
+    {
+        font-size: 18px;
+    }
+
+    #principal .contenedor-info .info
+    {
+        justify-content: flex-start;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 290%;
+    }
+}
+
+@media(max-width:731px)
+{
+    #pie .container #telefonos
+    {
+        flex-wrap: wrap;
+    }
+
+    #pie .container #telefonos .titulo-telefono
+    {
+        width: 75%;
+        margin: 0px;
+        text-align: end;
+    }
+
+    #pie .container #telefonos .list-inline
+    {
+        width: 100%;
+        justify-content:space-around;
+    }
+
+    #pie .container #telefonos .list-inline li
+    {
+        margin-top: 20px;
+        min-width: 25% !important;
+        margin:20px 0px 0px 0px;
+    }
+}
+
+@media(max-width:720px)
+{
+
+    .columna
+    {
+        width: 100%;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 450%;
+    }
+
+    #principal .contenedor-info
+    {
+        justify-content: center;
+    }
+
+    #principal .contenedor-info .info
+    {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    #pie #redes
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width:700px)
+{
+    #cabecera #form-busqueda input
+    {
+        display: none;
+    }
+
+    #cabecera #form-busqueda
+    {
+        line-height: 50px;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 840%;
+    }
+
+    #principal #consulta .contenedor-consulta h2
+    {
+        width: 100%;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        min-height: 700px;
+    }
+
+    #principal #consulta .contenedor-consulta p
+    {
+        width: 100%;
+    }
+
+    #principal #consulta .contenedor-consulta #form-consulta
+    {
+        width: 100%;
+    }
+
+    #principal #consulta .contenedor-consulta #form-consulta .caja-input
+    {
+        width: 100%;
+    }
+
+    #principal #consulta .contenedor-consulta #form-consulta input[type="tel"]
+    {
+        width: 100%;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 40%;
+        background-position-y: 149%;
+    }
+
+}
+
+@media(max-width:660px)
+{
+    #propuestas .contenedor-tarjetas .columna
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #informacion-datos .btn
+    {
+        margin-top: 30px;
+    }
+
+    #principal .contenedor-info .info
+    {
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        background-position-x: 40%;
+        background-position-y: 160%;
+    }
+}
+
+@media(max-width:620px)
+{
+
+    #cabecera
+    {
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    #principal
+    {
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    #pie
+    {
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    .contenedor-img-res
+    {
+        width: 100%;
+    }
+
+    #pie .container #telefonos .titulo-telefono
+    {
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    #pie .container #telefonos .titulo-telefono h4
+    {
+        font-size: 20px;
+    }
+
+    #pie .container #telefonos .list-inline li
+    {
+        min-width:100% !important;
+        flex-direction: row;
+        align-items:flex-start;
+    }
+
+    #pie .container #telefonos .list-inline li p
+    {
+        margin-left: 15px;
+        font-size: 16px;
+        color: white;
+    }
+
+    #pie #redes
+    {
+        display: block;
+        margin-top: 30px;
+    }
+
+    #pie #redes h4
+    {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #pie #redes ul
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #pie #redes ul li
+    {
+        margin: 15px 0px 15px 0px;
+        font-size: 16px;
+    }
+
+    #pie #redes ul li a i
+    {
+        font-size: 22px;
+    }
+
+    #pie #redes ul li a #facebook::after
+    {
+        content: "Facebook";
+        margin-left: 10px;
+        font-family: "Open sans";
+    }
+
+    #pie #redes ul li a #twitter::after
+    {
+        content: "Twitter";
+        margin-left: 10px;
+        font-family: "Open sans";
+    }
+
+    #pie #redes ul li a #youtube::after
+    {
+        content: "Youtube";
+        margin-left: 10px;
+        font-family: "Open sans";
+    }
+
+    #pie #redes ul li a #linkedin::after
+    {
+        content: "linkedin";
+        margin-left: 10px;
+        font-family: "Open sans";
+    }
+
+    #pie #redes ul li a #instagram::after
+    {
+        content: "Instagram";
+        margin-left: 10px;
+        font-family: "Open sans";
+    }
+
+    .footer-legal-section .contenedor-legal
+    {
+        flex-direction: column;
+    }
+
+    .footer-legal-section .contenedor-legal .contenedor-lista ul
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-legal-section .contenedor-legal .contenedor-lista ul li
+    {
+        margin-top: 18px;
+        margin-left: 0px;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:500px)
+{
+    #principal h1
+    {
+        width: 100%;
+    }
+
+    #principal p
+    {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #principal #consulta .contenedor-consulta h2
+    {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #principal #consulta .contenedor-consulta p
+    {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    #principal #consulta .contenedor-consulta #form-consulta button
+    {
+        min-width:100px;
+    }
+
+    #principal #consulta .contenedor-consulta
+    {
+        padding: 20px 20px;
+    }
+
+
+    #gobierno-nacional h6
+    {
+        font-size: 12.5px;
+        text-align: start;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    #gobierno-nacional .contenedor-enlaces a
+    {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #gobierno-nacional .contenedor-enlaces
+    {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:404px)
+{
+    #gobierno-nacional .contenedor-enlaces a
+    {
+        width: 100%;
+        font-size: 13.5px;
+    }
+
+    #gobierno-nacional .contenedor-enlaces a img
+    {
+        margin-left: 0px;
+    }
+
+    #pie
+    {
+        margin-top: 0px;
+    }
+
+    .main-footer .footer-license-text
+    {
+        text-align: start;
+    }
+}
